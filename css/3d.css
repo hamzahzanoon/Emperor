@@ -307,6 +307,12 @@ footer ul li:hover {
         margin-top: 25px;
         margin-left: -40px;
     }
+    .footer_1 p {
+        font-size: 20px;
+        font-weight: 600;
+        width: 350px;
+        margin-left: 10px;
+    }
 }
 
 /*************************/

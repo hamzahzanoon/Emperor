@@ -767,7 +767,6 @@ h3.hello span {
 
 @media (max-width:991px) {
     .contact .contact-info-item,
-    
      .services .service-item {
         flex: 0 0 47%;
         max-width: 47%;
@@ -806,9 +805,8 @@ h3.hello span {
 }
 
 @media (max-width:767px) {
-    .contact .contact-form .col-6
+    .contact .contact-form .col-6,
     .contact .contact-info-item,
-   
     .services .service-item,
     .about .about-content .experience,
     .about .about-content .education,
@@ -833,6 +831,13 @@ h3.hello span {
         padding-top: 5px;
         padding-bottom: 5px;
     }
+}
+
+@media (max-width:500px) {
+    .contact .contact-info-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
 }
 
 
