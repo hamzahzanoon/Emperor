@@ -1,0 +1,117 @@
+.portfolio .portfolio-heading {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio .portfolio-heading h2 {
+    color: var(--text-blak-900);
+    font-weight: 500;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.portfolio .portfolio-item {
+    flex: 0 0 32.20%;
+    max-width: 32.20%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    background-repeat: 6px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.portfolio .service-item-inner {
+    border: 6px solid var(--bg-blak-100);
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .service-item-inner .portfolio-img img {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+} 
+
+.portfolio .portfolio-item img {
+    width: 96%;
+    height: 200px;
+    margin-left: 5.5px;
+    margin-top: 6.5px;
+    transition: all 0.3s ease;
+}
+
+.h .portfolio-inner .portfolio-img {
+    margin-top: 50px;
+} 
+
+@media (max-width:960px) {
+    .portfolio .portfolio-item {
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:750px) {
+    .portfolio .portfolio-item {
+        flex: 0 0 45%;
+        max-width: 45%;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:550px) {
+    .portfolio .portfolio-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .footr-img img {
+        width: 200px;
+        margin-bottom: -70px;
+    }
+}
+
+
+/*************/
+
+.portfolio .portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.row .portfolio-item .content {
+    padding: 10px 20px 22px 20px;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    bottom: -150%;
+    box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.9s ease;
+}
+
+.row .portfolio-item:hover .content {
+    bottom: 0;
+}
+
+.content .row .details span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ec1839;
+}
+
+.content .row .details p {
+    color: rgba(51, 51, 51, 0.788);
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0;
+}
